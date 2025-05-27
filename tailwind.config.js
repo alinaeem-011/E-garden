@@ -14,6 +14,7 @@ export default {
       padding: {
         DEFAULT: "12px",
         md: "32px",
+        lg: "0px",
       },
     },
   },
