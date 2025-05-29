@@ -8,7 +8,7 @@ body {
   @apply bg-green-950 text-white tracking-wider font-Jost;
 }
 section {
-  @apply py-10 md:py-18;
+  @apply py-10 md:py-20;
 }
 h1 {
   @apply text-3xl md:text-4xl xl:text-5xl font-bold;
