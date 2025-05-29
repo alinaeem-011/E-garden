@@ -754,3 +754,30 @@ body{
     line-height: 2.25rem;
   }
 }
+
+@media (min-width: 768px){
+  .lg\:static{
+    position: static;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+
+  .lg\:max-h-fit{
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+
+  .lg\:w-auto{
+    width: auto;
+  }
+
+  .lg\:flex-row{
+    flex-direction: row;
+  }
+
+  .lg\:bg-transparent{
+    background-color: transparent;
+  }
+}
