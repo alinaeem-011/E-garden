@@ -10,3 +10,6 @@ body {
 .nav-link {
   @apply text-lg  font-bold duration-300;
 }
+.nav-link:hover {
+  color: yellowgreen;
+}

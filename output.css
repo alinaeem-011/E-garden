@@ -598,24 +598,20 @@ video {
   position: absolute;
 }
 
-.-right-5{
-  right: -1.25rem;
-}
-
-.left-0{
-  left: 0px;
-}
-
-.top-0{
-  top: 0px;
-}
-
 .-left-5{
   left: -1.25rem;
 }
 
+.-right-5{
+  right: -1.25rem;
+}
+
 .-top-5{
   top: -1.25rem;
+}
+
+.left-0{
+  left: 0px;
 }
 
 .left-\[-100\%\]{
@@ -624,6 +620,10 @@ video {
 
 .left-\[0\]{
   left: 0;
+}
+
+.top-0{
+  top: 0px;
 }
 
 .z-50{
@@ -738,6 +738,10 @@ body{
   line-height: 1.75rem;
   font-weight: 700;
   transition-duration: 300ms;
+}
+
+.nav-link:hover {
+  color: yellowgreen;
 }
 
 @media (min-width: 340px){
