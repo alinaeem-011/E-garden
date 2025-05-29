@@ -602,28 +602,28 @@ video {
   right: -1.25rem;
 }
 
-.-top-5{
-  top: -1.25rem;
-}
-
 .left-0{
   left: 0px;
-}
-
-.left-\[-100\%\]{
-  left: -100%;
 }
 
 .top-0{
   top: 0px;
 }
 
-.left-5{
-  left: 1.25rem;
-}
-
 .-left-5{
   left: -1.25rem;
+}
+
+.-top-5{
+  top: -1.25rem;
+}
+
+.left-\[-100\%\]{
+  left: -100%;
+}
+
+.left-\[0\]{
+  left: 0;
 }
 
 .z-50{
@@ -686,6 +686,10 @@ video {
 .bg-green-950{
   --tw-bg-opacity: 1;
   background-color: rgb(5 46 22 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-950\/80{
+  background-color: rgb(5 46 22 / 0.8);
 }
 
 .bg-center{
