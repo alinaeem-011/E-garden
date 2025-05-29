@@ -630,6 +630,10 @@ video {
   z-index: 50;
 }
 
+.-mt-12{
+  margin-top: -3rem;
+}
+
 .flex{
   display: flex;
 }
@@ -738,16 +742,8 @@ body{
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-section{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-@media (min-width: 540px){
-  section{
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-  }
+section {
+  /* @apply py-20 md:py-28; */
 }
 
 h1{
