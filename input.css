@@ -34,3 +34,7 @@ h1 {
 .btn-outline:hover {
   @apply bg-yellow-500;
 }
+.pot-image {
+  width: 100px;
+  height: 100px;
+}
