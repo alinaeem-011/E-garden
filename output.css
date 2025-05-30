@@ -941,6 +941,12 @@ h1{
   }
 }
 
+@media (min-width: 540px){
+  .md\:gap-4{
+    gap: 1rem;
+  }
+}
+
 @media (min-width: 768px){
   .lg\:static{
     position: static;
@@ -973,5 +979,15 @@ h1{
 
   .lg\:bg-transparent{
     background-color: transparent;
+  }
+
+  .lg\:pt-5{
+    padding-top: 1.25rem;
+  }
+}
+
+@media (min-width: 1180px){
+  .xl\:pt-10{
+    padding-top: 2.5rem;
   }
 }
