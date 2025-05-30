@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*section {
+  padding: 0px;
+}
 body {
   @apply bg-green-950 text-white tracking-wider font-Jost;
 }

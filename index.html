@@ -10,7 +10,7 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
-    />
+    /> 
   </head>
   <body>
     <!-----------------------     Header        ---------------------------->
@@ -52,8 +52,8 @@
     <main>
       <section id="home">
         <div class="container">
-          <div>
-            <div class="w-full space-y-5">
+          <div class="flex flex-col items-center gap-5 lg:flex-row ">
+            <div class="w-full space-y-5 lg:w-1/2">
               <h1>
                 <span class="text-yellow-500">Plants</span> Make a <br />
                 positive
@@ -68,14 +68,14 @@
                   for every corner of your home.
                 </p>
               </div>
-              <div class="flex flex-row gap-2 sm:flex-col">
-                <button class="btn">
+              <div class="flex flex-col gap-2 sm:flex-row">
+                <button class="btn w-40">
                   <span>
                     Shop Now
                     <i class="ri-leaf-line"></i>
                   </span>
                 </button>
-                <button class="btn btn-outline">
+                <button class="btn btn-outline w-40">
                   <span>Know More</span> <i class="ri-leaf-line"></i>
                 </button>
               </div>
@@ -94,18 +94,21 @@
                   class="ri-linkedin-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"
                 ></i>
               </div>
-                 <div class="">
+            
+                 <div class=" w-96">
                <img src="/img/home.png" alt="flower pot" /> 
                           </div>
                    <!-- leaf -->
-                    <div>
-                      <i class="ri-leaf-line"></i>
-                    </div> <!-- leaf -->
-                    <div>
-                      <i class="ri-leaf-line"></i>
-                    </div> <!-- leaf -->
-                    <div>
-                      <i class="ri-leaf-line"></i>
+                    <div class=" absolute right-0 -top-10 opacity-30">
+                      <i class="ri-leaf-line text-6xl text-yellow-500"></i>
+                    </div >
+                     <!-- flower -->
+                    <div class="absolute left-0 bottom-0 opacity-30">
+                      <i class="ri-flower-line text-6xl text-yellow-500"></i>
+                    </div> 
+                    <!-- plant-->
+                    <div class="absolute right-7 top-10 opacity-30">
+                      <i class="ri-plant-line text-6xl text-yellow-500"></i>
                     </div>
 
 
