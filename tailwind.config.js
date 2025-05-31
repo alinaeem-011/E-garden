@@ -8,17 +8,27 @@ export default {
       lg: "768px",
       xl: "1180px",
     },
-    extend: {},
-    fontFamily: {
-      Jost: ["Jost", "sans-serif"],
-      Lobster: ["Lobster", "sans-serif"],
-    },
     container: {
       center: true,
       padding: {
         DEFAULT: "12px",
         md: "32px",
         lg: "0px",
+      },
+    },
+    extend: {
+      fontFamily: {
+        jost: ["Jost", "sans-serif"],
+        lobster: ["Lobster", "sans-serif"],
+      },
+      keyframes: {
+        move: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-1rem)" },
+        },
+      },
+      animation: {
+        movingY: "move 3s linear infinite",
       },
     },
   },
