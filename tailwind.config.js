@@ -18,8 +18,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        jost: ["Jost", "sans-serif"],
-        lobster: ["Lobster", "sans-serif"],
+        Jost: ["Jost", "sans-serif"],
+        Lobster: ["Lobster", "sans-serif"],
       },
       keyframes: {
         move: {
