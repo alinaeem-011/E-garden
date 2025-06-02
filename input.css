@@ -45,3 +45,6 @@ h2 {
 h3 {
   @apply text-xl md:text-2xl xl:text-3xl;
 }
+.pp__card:hover img {
+  @apply -top-8 cursor-pointer;
+}
